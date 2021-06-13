@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century gothic; 
+}
+#main{
+	width: 100%;
+	height: 100vh;
+}
+body{
+	font-size: 14px;
+}
+nav{
+	height:100px;
+	width: 100%
+	margin:0;
+	padding: 0;
+	background-color: #e74c3c;
+	line-height: 100px;
+	border-bottom: 5px solid #f1c40f;
+}
+nav ul{
+	float:right;
+	margin-right:50px;
+}
+nav ul li {
+	list-style-type: none;
+	display:inline;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color:#ffff;
+	padding: 40px;
+	font-size: 150%
+}
+div.main nav img{
+	float:left;
+	margin-left: 50px;
+	position: absolute;
+	
+}
+nav ul li :hover{
+	background-color: #f1c40f;
+	color:black;
+	transition: 0.5s;
+}
+	/*body*/
+
+div img{
+	object-fit: center;
+}
+.about{
+	margin: 10px;
+	margin-left: 15px;
+	font-size: 130%;
+}
