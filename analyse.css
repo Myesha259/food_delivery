@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century gothic; 
+}
+#main{
+	width: 100%;
+	height: 100vh;
+}
+body{
+	font-size: 14px;
+}
+nav{
+	height:100px;
+	width: 100%
+	margin:0;
+	padding: 0;
+	background-color: #27ae60;
+	line-height: 100px;
+	border-bottom: 5px solid #f1c40f;
+}
+nav ul{
+	float:right;
+	margin-right:50px;
+}
+nav ul li {
+	list-style-type: none;
+	display:inline;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color:#ffff;
+	padding: 40px;
+	font-size: 150%
+}
+nav img{
+	float:left;
+	margin-left: 50px;
+	position: absolute;
+}
+nav ul li :hover{
+	background-color: #f1c40f;
+	color:black;
+	transition: 0.5s;
+}
+
+/* body*/
+.cart{
+	background-color: white;
+	display: grid;
+	grid-auto-rows: minmax(20px,80px);
+	padding: 5px;
+	margin-top: 50px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.cart > div:nth-child(even){
+	background-color: #C6F7D7;
+	box-shadow: 2px 2px 2px 2px #C2C2C2;
+}
+.cartHead{
+	
+	font-size: 250%;
+	font-weight: bold;
+}
+.order{
+	background-color: #F5F5F5;
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 10% 30% 10% 20% 15% 15%;
+}
+
+div.order button.done{
+	background: none;
+	padding:8px 8px;
+	text-decoration: none;
+	border-radius: 8px;
+	background-color: #44bd32;
+	color:white;
+	transition: 0.5s;
+}
+div.order button.done:hover{
+	background-color: white;
+	color: #44bd32;
+	font-weight: bolder;
+}
+div.order button.cancel{
+	background: none;
+	padding:8px 8px;
+	text-decoration: none;
+	border-radius: 8px;
+	background-color: red;
+	color:white;
+	transition: 0.5s;
+}
+div.order button.cancel:hover{
+	background-color: white;
+	color: red;
+	font-weight: bolder;
+}
+div.order p.bold{
+	font-size: 120%;
+	margin: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+div.order p.price{
+	font-size: 120%;
+	margin: 5px;
+	margin-top: 0px;
+}
+.TableHeader{
+	background-color: white;
+}
+.input{
+	width: 95%;
+	border: 1px solid #2980b9;
+	border-radius: 4px;
+	outline: :none;
+	padding: 8px;
+		box-sizing: border-box;
+}
